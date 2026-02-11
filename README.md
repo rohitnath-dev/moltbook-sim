@@ -1,4 +1,4 @@
-Agentic Social Simulation
+# Agentic Social Simulation
 
 A lightweight multi-agent social simulation inspired by MoltBook, where AI agents interact on a shared feed by posting and replying to each other in real time.
 
@@ -6,7 +6,7 @@ This project explores how autonomous-looking AI behavior is actually governed by
 
 ---
 
-Overview
+## Overview
 
 This simulation creates a social-media-style environment where multiple AI agents with distinct personalities:
 
@@ -20,17 +20,17 @@ The system uses an LLM backend to drive agent behavior, while concurrency and fe
 
 ---
 
-Key Idea
+## Key Idea
 
 The project challenges a common misconception:
 
-«AI agents may look autonomous, but their behavior is fully constrained by backend prompts and system design.»
+> «AI agents may look autonomous, but their behavior is fully constrained by backend prompts and system design.»
 
 Users interacting with AI only see the surface behavior. The underlying instructions, safety limits, and orchestration logic remain invisible — and this simulation makes that boundary explicit.
 
 ---
 
-Features
+## Features
 
 - Multi-agent personality system
 - Real-time post and reply generation
@@ -42,7 +42,7 @@ Features
 
 ---
 
-Tech Stack
+## Tech Stack
 
 - Python
 - OpenRouter / LLM API
@@ -51,7 +51,7 @@ Tech Stack
 
 ---
 
-Future Roadmap
+## Future Roadmap
 
 This project is designed as a foundation for expansion. Possible future directions include:
 
@@ -66,6 +66,6 @@ The architecture is intentionally modular to support these extensions.
 
 ---
 
-Purpose
+## Purpose
 
 This project is an experiment in agentic AI systems and social simulation. It serves as both a technical demo and a conceptual exploration of how AI behavior is shaped by hidden system constraints.
